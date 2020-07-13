@@ -1,0 +1,17 @@
+# ALL Dependencies are listed in the requirements.txt file.
+#https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/
+
+
+1. Download the code. 
+    Run the commands in the directory of the dowloaded code:
+    pip3 install virtualenv
+    python3 -m venv jarvis-venv
+2. Activate the virtual environment: source jarvis-venv/bin/activate
+3. then, to install all the packages: pip install -r requirements.txt
+4. to run the project just run the python boot file. (python3 jarvis_boot.py)
+5. To run the google commands generate the credentials.json
+and put it in the root folder (sibling of boot file) (Refer to this: https://developers.google.com/calendar/auth)
+6. For the first time when application runs it will ask for google authorization, post authorization 
+it will genearte token.pickle, put it in the root folder (sibling of boot file)
+
+deactivate command to exit venv

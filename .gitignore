@@ -1,0 +1,7 @@
+.vscode
+.spyproject
+jarvis-venv
+token.pickle
+credentials.json
+*.pyc
+.DS_Store
