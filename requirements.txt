@@ -1,4 +1,4 @@
-cryptography==2.8
+cryptography==3.2
 iso8601==0.1.12
 lxml==4.5.0
 SpeechRecognition==3.8.1
